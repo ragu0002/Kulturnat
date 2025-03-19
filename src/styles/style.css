@@ -23,6 +23,19 @@ main {
   --aksent: #ffca6f;
   --blue_blob: #172a66;
 }
+p {
+  color: var(--tekst);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 h1 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
   color: var(--aksent);
+  text-transform: uppercase;
+  text-align: center;
 }

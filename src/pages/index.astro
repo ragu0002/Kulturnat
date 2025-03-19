@@ -1,7 +1,20 @@
 ---
 import Mainlayout from "../layouts/Mainlayout.astro";
 import Herosection from "../components/Herosection.astro";
+import Header from "../components/Header.astro";
+import Button from "../components/Button.astro";
 ---
 
-<Mainlayout title="Forside" />
-<Herosection />
+<Mainlayout title="Forside"
+  ><Header />
+  <Herosection />
+  <p>
+    Hvert år, den sidste fredag i september, forvandles Helsingør, Espergærde og
+    Tikøb til et kulturelt samlingspunkt, hvor gader, torve og kultursteder
+    summer af liv, fællesskab og oplevelser. Kulturnatten bringer os sammen –
+    unge som ældre, venner, familier og nysgerrige sjæle – for at fejre alt det,
+    der gør vores byer helt særlige.
+  </p>
+  <Button tekst="Se Program" />
+  <img src="src/assets/302625_Kulturvftet 3.png" alt="kulturnatt" />
+</Mainlayout>
